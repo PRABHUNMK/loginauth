@@ -1,0 +1,64 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+
+.Loginpage{
+  /* display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-auto-rows: minmax(50px,auto); */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  
+  background-color: rgb(215,111,132); /* Optional: Set a background color for better visibility */
+ 
+}
+
+.leftside
+{
+  margin: auto;
+  width: 40%;
+  padding: 30px;
+  height: auto;
+  background-color: rgb(231, 215, 218);
+  
+  
+}
+
+.leftside h1{
+  text-align: center;
+}
+
+.registerform{
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.registerform td{
+  padding: 10px;
+}
+
+.submitbutton{
+  display: flex;
+  justify-content:flex-end;
+  
+}
+
+.inputfield{
+  background-color: #fff;
+  padding: 0.84rem;
+}
+
+.registerbutton{
+  padding: 15px;
+  background-color: rgb(215,111,132);
+ 
+  width: 160px;
+  
+}
