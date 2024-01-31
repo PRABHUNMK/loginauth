@@ -8,7 +8,8 @@ const usermodels = require('./usermodel');
 
 
 app.use(cors({
-    origin:"http://localhost:3000",
+    origin:["http://localhost:3000","https://loginauth-api-git-main-prabhunmk.vercel.app/"],
+    methods:["POST","GET"],
     credentials:true,
 }));
 
