@@ -7,7 +7,10 @@ const bp = require('body-parser')
 const usermodels = require('./usermodel');
 
 
-app.use(cors({origin:"http://localhost:3000",credentials:true}));
+app.use(cors({
+    origin:"http://localhost:3000",
+    credentials:true,
+}));
 
 app.use(bp.json())
 
