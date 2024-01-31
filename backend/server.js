@@ -16,7 +16,9 @@ app.use(bp.json())
 
 const connectionurl="mongodb+srv://prabhu:BZ52rwkRQiH02stL@cluster0.b93gxyk.mongodb.net/userauth?retryWrites=true&w=majority";
 mongoose.connect(connectionurl);
-
+app.get("/",(req,res)=>{
+    res.json("hello");
+})
 app.post('/register',(req,res)=>{
     usermodels.create(req.body)
     .then(
