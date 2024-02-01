@@ -23,7 +23,7 @@ export default function Registerpage()
       num:num
     }
 
-    axios.post("http://localhost:3500/register",data)
+    axios.post("https://mern-login-auth.onrender.com/register",data)
     .then(result => console.log("data posted", result),
     navig('/login'))
     .catch(err => console.log("data not posted",err))
