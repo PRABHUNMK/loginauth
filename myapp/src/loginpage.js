@@ -19,7 +19,7 @@ export default function Loginpage()
       email:email,
       num:num
     }
-    axios.post('http://localhost:3500/login',data)
+    axios.post('https://mern-login-auth.onrender.com/login',data)
     .then(result=>{
       console.log("data login success",result)
       if(result.data === "Success")
