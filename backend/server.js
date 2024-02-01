@@ -8,7 +8,7 @@ const usermodels = require('./usermodel');
 
 
 app.use(cors({
-    origin:["http://localhost:3000","https://loginauth-api-git-main-prabhunmk.vercel.app/"],
+    origin:["https://mern-login-auth.onrender.com"],
     methods:["POST","GET"],
     credentials:true,
 }));
