@@ -37,7 +37,7 @@ app.post('/login',(req,res)=>{
         {
             if(user.num===num)
             {
-                res.json("success")
+                res.json("Success")
             }else{
                 res.json("number is incorrect")
             }
