@@ -7,7 +7,7 @@ const bp = require('body-parser')
 const usermodels = require('./usermodel');
 
 
-app.use(cors({origin:"https://mern-login-auth.onrender.com",credentials:true}));
+app.use(cors({origin:"https://imaginative-figolla-d2dfe5.netlify.app",credentials:true}));
 
 app.use(bp.json())
 
