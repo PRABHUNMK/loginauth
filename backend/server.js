@@ -6,8 +6,8 @@ const bp = require('body-parser')
 
 const usermodels = require('./usermodel');
 
-
-app.use(cors({origin:"https://imaginative-figolla-d2dfe5.netlify.app",credentials:true}));
+// https://imaginative-figolla-d2dfe5.netlify.app
+app.use(cors({origin:"http://localhost:3000/",credentials:true}));
 
 app.use(bp.json())
 
